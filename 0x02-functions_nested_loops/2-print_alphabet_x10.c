@@ -8,9 +8,9 @@
 
 void print_alphabet(void)
 {
-	char alphabet;
 
-	alphabet = 'a';
+char alphabet;
+alphabet = 'a';
 int a;
 a = 1;
 
