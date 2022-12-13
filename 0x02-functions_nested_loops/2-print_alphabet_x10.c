@@ -14,9 +14,9 @@ alphabet = 'a';
 
 
 while (a <= 10)
+{
 a = 1;
 a++;
-{
 while (alphabet <= 'z')
 {
 _putchar(alphabet);
