@@ -1,8 +1,3 @@
-/**
- * File: 5-printf.c
- * Author: Daniel Yohannes
- */
-
 #include <stdio.h>
 
 /**

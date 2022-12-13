@@ -1,8 +1,3 @@
-/**
- * File: 4-puts.c
- * Author: Daniel Yohannes
- */
-
 #include <stdio.h>
 
 /**
