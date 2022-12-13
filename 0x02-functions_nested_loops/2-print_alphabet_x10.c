@@ -14,23 +14,23 @@ int main(void)
 
 
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 
 char alphabet;
 alphabet = 'a';
-int a = 1;
+int a;
+
+
+while (a <= 10)
+{
+a = 1;
+a++;
 
 while (alphabet <= 'z')
 {
 _putchar(alphabet);
-
-while (a <= 10)
-{
-a++;
 }
-alphabet++;
-
 }
 _putchar('\n');
 
