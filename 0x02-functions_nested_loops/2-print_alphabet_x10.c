@@ -1,10 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints lowercase alphabet
- * Description - print the alphabet
- * Return - Always 0 (Success)
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
+
+int main(void)
+{
+	print_alphabet_x10();
+	return (0);
+}
+
+
 
 void print_alphabet(void)
 {
