@@ -19,8 +19,7 @@ void print_alphabet(void)
 
 char alphabet;
 alphabet = 'a';
-int a;
-a = 1;
+int a = 1;
 
 while (alphabet <= 'z')
 {
