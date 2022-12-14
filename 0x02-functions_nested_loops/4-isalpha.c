@@ -6,13 +6,19 @@
 */
 
 int _isalpha(int c)
+
 {
-    while (c <= 122)
+if ((c >= 65) && c <= 122)
+{
+    if (c >= 91 && c <= 96)
     {
-        if (c >= 65 && c <= 90 && c >= 97)
-        {
-            return (1);
-        }
         return (0);
     }
+return (1);
+}
+
+else
+{
+return (0);
+}
 }
