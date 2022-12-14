@@ -13,12 +13,12 @@ char alphabet;
 
 while (a < 10)
 {
-    alphabet = 'a';
-    while (alphabet <= 'z')
-    {
-        _putchar(alphabet);
-        alphabet++;
-    }
+alphabet = 'a';
+while (alphabet <= 'z')
+{
+_putchar(alphabet);
+alphabet++;
+}
 
 _putchar('\n');
 a++;
