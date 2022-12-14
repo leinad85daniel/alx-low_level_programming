@@ -4,16 +4,17 @@
  * @c: The character to be checked
  * Return: 1 for lowercase character or 0 for anything else
 */
+
 int _isalpha(int c)
 {
-    while ((c >= 65) && (c <= 122))
+    c = 65;
+    while (c <= 122)
     {
-        if ((c >= 91 ) && (c <= 96))
+        if ((c >= 91) && (c <= 96))
         {
-            return(0);
+            return (0);
         }
         return (1);
+      c++;  
     }
-
-
 }
