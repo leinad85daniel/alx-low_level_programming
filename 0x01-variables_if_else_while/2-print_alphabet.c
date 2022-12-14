@@ -8,8 +8,6 @@ int main(void)
 char alphabet;
 alphabet = 'a';
 
-    print_alphabet(alphabet);
-
 	while (alphabet <= 'z')
 	{
 		putchar (alphabet);
