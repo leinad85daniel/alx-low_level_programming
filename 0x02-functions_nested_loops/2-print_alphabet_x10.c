@@ -21,9 +21,8 @@ while (a <= 10)
         _putchar(alphabet);
         alphabet++;
     }
-_putchar(a);
+_putchar('\n');
 a++;
 }
 
-_putchar('\n');
 }
