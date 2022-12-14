@@ -6,7 +6,7 @@
 */
 int _isalpha(int c)
 {
-    while (c <= 122)
+    while ((c >= 65) && (c <= 122))
     {
         if ((c >= 91 ) && (c <= 96))
         {
