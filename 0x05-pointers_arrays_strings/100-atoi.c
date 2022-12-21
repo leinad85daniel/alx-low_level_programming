@@ -20,12 +20,12 @@ int _strlen(char *s)
 }
 
 /**
- * numstarts - find index where a digit is first found in string
+ * idx_num_starts - find index where a digit is first found in string
  * @s: string to search
  * Return: integer index where digit is first found
  */
 
-int numstarts(char *s)
+int idx_num_starts(char *s)
 {
 	int i;
 
@@ -38,11 +38,11 @@ int numstarts(char *s)
 }
 
 /**
- * findingsign - determine if integer is negative
+ * find_sign - determine if integer is negative
  * @s: integer
  * Return: integer 1 or -1
  */
-int findingsign(char *s)
+int find_sign(char *s)
 {
 	int negatives = 0, i = 0, sign = 1;
 
