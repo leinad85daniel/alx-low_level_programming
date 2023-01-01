@@ -9,19 +9,19 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i = 0;
-	int j = 0;
+char *p = dest;
 
-	while (dest[i] != '\0')
-		i++;
+/* Find the end of the dest string */
+while (*p)
+p++;
 
-	while (src[j] != '\0')
-	{
-		dest[i] = src[j];
-		i++;
-		j++;
-	}
-	dest[i] = '\0';
-
-	return (dest);
+/* Append src string to the end of dest string */
+while (*src)
+{
+*p = *src;
+p++;
+src++;
+}
+*p = '\0';
+return dest;
 }
